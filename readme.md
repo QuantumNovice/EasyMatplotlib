@@ -20,5 +20,12 @@ Clone it for now
 If it grabs traction then sure
 
 
+## Preview 
+
+![](test.gif)
+![](re2.gif)
+![](reee.gif)
+![](tan.gif)
+
 
 

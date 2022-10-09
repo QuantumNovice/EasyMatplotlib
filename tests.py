@@ -8,8 +8,9 @@ def func(x,t):
 xrange = np.linspace(0, 2*np.pi, 100)
 a = ParametricAnim(lambda x,t: t*np.sin(x), xrange, lw=2)
 a.anim()
+#a.save("reee")
 
 xrange = np.linspace(0, 2*np.pi, 100)
-a = ParametricAnim(lambda x,t: np.sin(x*t), xrange, lw=2)
-a.anim()
-
+a = ParametricAnim(lambda x,t: np.sin(x*t/10), xrange, lw=2)
+#a.anim()
+a.save("re2")
